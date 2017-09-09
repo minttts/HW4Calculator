@@ -12,5 +12,13 @@
     "express": "^4.15.4"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minttts/HW4Calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/minttts/HW4Calculator/issues"
+  },
+  "homepage": "https://github.com/minttts/HW4Calculator#readme",
   "description": ""
 }

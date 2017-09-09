@@ -32,12 +32,12 @@ app.post('/calculator/rest/multiply', function (req, res, next) {
     var x = body.x;
     var y = body.y;
     var result = 0;
-    var object = {
+    var obj = {
         "x": x,
         "y": y,
         "result of x multiply y": x * y
     }
-    res.json(object);
+    res.json(obj);
 });
 
 app.post('/calculator/rest/divide', function (req, res, next) {
@@ -45,12 +45,12 @@ app.post('/calculator/rest/divide', function (req, res, next) {
     var x = body.x;
     var y = body.y;
     var result = 0;
-    var object = {
+    var obj = {
         "x": x,
         "y": y,
-        "result x Divide y": x / y
+        "result x divide y": x / y
     }
-    res.json(object);
+    res.json(obj);
 });
 
 app.get('/help', function (req, res, next) {
